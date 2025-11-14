@@ -8,7 +8,7 @@
        \/     \/     \/                     \/
 </pre>
 <p align="center">
-  <strong>Professional Hybrid Resolver & Live Host Prober (by Ihsan)</strong>
+  <strong>Professional Hybrid Resolver & Live Host Prober</strong>
 </p>
 
 <p align="center">
