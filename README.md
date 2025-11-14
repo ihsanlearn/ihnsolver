@@ -4,8 +4,6 @@
 `ihnresolver` is a small but professional Python tool to resolve lists of hostnames and detect which hosts are serving HTTP/HTTPS. It is a Python port and enhancement of an existing bash workflow that used `dnsx` and `httpx`.
 
 
-**Owner:** iihhn
-
 
 ### Outputs
 
@@ -79,9 +77,3 @@ If `dnsx` and `httpx` are installed, the script will delegate resolution and pro
 
 ### Acknowledgement
 This tool is built on top of concepts and workflows inspired by the ProjectDiscovery ecosystem, specifically the `dnsx` and `httpx` utilities.
-
-
-### License
-
-
-MIT
