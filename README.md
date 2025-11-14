@@ -1,12 +1,12 @@
-<pre align="center">
-.__.__                                   .__
+<pre align="left">
+
+.__ __                        .__
 |__|  |__   ____   __________ |  |___  __ ___________
 |  |  |  \ /    \ /  ___/  _ \|  |\  \/ // __ \_  __ \
 |  |   Y  \  |  \\___ (  <_> )  |_\   /\  ___/|  | \/
 |__|___|  /___|  /____  >____/|____/\_/  \___  >__|
        \/     \/     \/                     \/
 </pre>
-<h1 align="center">ihnsolver</h1>
 <p align="center">
   <strong>Professional Hybrid Resolver & Live Host Prober (by Ihsan)</strong>
 </p>
