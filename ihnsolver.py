@@ -320,8 +320,16 @@ v1.0.0
         for h in sorted(set(alive_hosts)):
             f.write(h.rstrip("/\n") + "\n")
 
+    # Write dead hosts
+    dead_hosts = sorted(set(hosts) - set(alive_hosts))
+    dead_out_path = Path("dead-hosts.txt")
+
+    with dead_out_path.open("w", encoding="utf-8") as f:
+        for h in dead_hosts:
+            f.write(h + "\n")
+
     console.print()
-    console.print(Panel(Text(f"Done. Resolved: {len(resolved)} | Live hosts: {len(set(alive_hosts))}\nRaw details: {raw_out_path}\nHosts file: {out_path}"), title="Summary"))
+    console.print(Panel(Text(f"Done. Resolved: {len(resolved)} | Live hosts: {len(set(alive_hosts))} | Dead hosts: {len(set(dead_hosts))}\nRaw details: {raw_out_path}\nHosts file: {out_path}\nDead Host File: {dead_out_path}"), title="Summary"))
 
     return 0
 
