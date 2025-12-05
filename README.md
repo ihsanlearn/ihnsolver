@@ -1,21 +1,21 @@
-<pre align="left">
-
-.__ __                        .__
-|__|  |__   ____   __________ |  |___  __ ___________
+<div align="center">
+<pre>
+.__.__                        .__                     
+|__|  |__   ____   __________ |  |___  __ ___________ 
 |  |  |  \ /    \ /  ___/  _ \|  |\  \/ // __ \_  __ \
-|  |   Y  \  |  \\___ (  <_> )  |_\   /\  ___/|  | \/
-|__|___|  /___|  /____  >____/|____/\_/  \___  >__|
-       \/     \/     \/                     \/
+|  |   Y  \   |  \\___ (  <_> )  |_\   /\  ___/|  | \/
+|__|___|  /___|  /____  >____/|____/\_/  \___  >__|   
+        \/     \/     \/                     \/       
 </pre>
+</div>
 <p align="center">
   <strong>Professional Hybrid Resolver & Live Host Prober</strong>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python" alt="Python 3.10+">
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License: MIT">
-  <img src="https://img.shields.io/badge/Owner-iihhn-red?style=for-the-badge" alt="Owner: iihhn">
-  <img src="https://img.shields.io/badge/Requires-Rich-purple?style=for-the-badge" alt="Requires: Rich">
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License: MIT"> 
+  <img src="https://img.shields.io/badge/Async-Powered-purple?style=for-the-badge&logo=python" alt="Async Powered">
 </p>
 
 `ihnsolver` is a professional Python tool to resolve lists of hostnames and detect which hosts are serving HTTP/HTTPS services.
