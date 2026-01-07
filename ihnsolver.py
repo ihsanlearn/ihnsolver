@@ -226,7 +226,8 @@ def main(argv: Optional[List[str]] = None) -> int:
                 \/     \/     \/                     \/       
         v1.0.0
         """
-
+    )
+    
     console.print(Panel(banner, subtitle=f"{OWNER} · v{VERSION}"))
 
     in_path = Path(args.input)
